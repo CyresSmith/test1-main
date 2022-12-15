@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size;
+  font-family: $font-family;
+  background: $background-color;
+  color: $font-color;
+  line-height: 1.4;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  max-width: $page-width;
+}
